@@ -5,7 +5,7 @@
     Version: 1.0
 **/
 
-/*CSS RESET*/
+/*------ RESET CSS ------*/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, nav, output, section, summary, time, mark, audio, video {
     border: 0;
     font-size: 100%;
@@ -70,7 +70,7 @@ button, input[type="submit"] {
     cursor: pointer;
 }
 
-/* HEADINGS */
+/*------ HEADINGS ------*/
 h1 {
     font-size: 36px;
 }
@@ -90,7 +90,7 @@ h6 {
     font-size: 12px;
 }
 
-/* GRID */
+/*------ GRID ------*/
 .wrap {
     max-width: 1170px;
     margin: auto;
@@ -180,7 +180,7 @@ h6 {
     margin-left: 91.66667%;
 }
 
-/* GENERAL */
+/*------ GENERAL ------*/
 .left {
     float: left;
 }
@@ -200,7 +200,7 @@ h6 {
     clear: both;
 }
 
-/* CLEARFIX */
+/*------ CLEARFIX ------*/
 .row:after,
 .wrap:after,
 .left:after,
@@ -211,7 +211,7 @@ h6 {
     clear: both;
 }
 
-/* MOBILE */
+/*------ MOBILE DEVICE ------*/
 @media screen and (max-width: 480px) {
 
     [class*="col-"] {
